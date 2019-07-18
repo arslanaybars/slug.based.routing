@@ -1,0 +1,18 @@
+﻿@model Car
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+    <div style="background-color:aquamarine">
+        <p>@Model.Id</p>
+        <p>@Model.ViewTranslations.Culture</p>
+        <p>@Model.ViewTranslations.Slug</p>
+        <p>@Model.Year</p>
+        <p>@Model.Model</p>
+        <p>@Model.Color</p>
+        <p>@Model.ViewTranslations.Description</p>
+    </div>
+
+
