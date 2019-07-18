@@ -60,7 +60,7 @@ private IActionResult ReturnSlugAction(string slug, string culture)
     return methodInfo.Invoke(instance, new object[] { view, data }) as IActionResult;
 }
 ```
-The sample demonstrate simple slug based strategy. You can upgrade domains and controller logic depends your need.. 👏🏻
+The sample demonstrate simple slug based strategy. You can upgrade domain and controller logic depends on your need.. 👏🏻
 
 Enjoy!
 
